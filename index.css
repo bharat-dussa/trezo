@@ -152,6 +152,33 @@ nav div#logo {
   flex-flow: column nowrap;
   
 }
+/* Element | http://127.0.0.1:5500/index.html */
+
+section.about-section:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(3) > img:nth-child(1) {
+  width: 29px;
+  margin-left: 10px;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+section.about-section:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(3) {
+  font-size: 14px;
+  color: var(--secondary-main);
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+section.about-section:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3) {
+  font-size: 14px;
+  color: var(--secondary-main);
+
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+section.about-section:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3) > img:nth-child(2) {
+  margin-left: 10px;
+}
 
 .section-one-details h3{
     font-size: 50px;
@@ -244,11 +271,16 @@ nav div#logo {
   align-self: flex-end;
 }
 .right-arrow {
-    display: flex;
+    margin-top: 11px;
 }
-.right-arrow a {
-    width: 20px !important;
-}
+section.about-section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) {
+  font-size: 14px;
+  color: var(--secondary-main);
+ }
+ section.about-section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > img:nth-child(2) {
+  width: 45px;
+ }
+ 
 .lower-about-section {
   width: 100%;
   display: flex;
@@ -379,6 +411,11 @@ nav div#logo {
   font-weight: 700;
   margin-bottom: 10px;
 }
+section.about-section:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) {
+  font-size: 14px;
+  color: var(--secondary-main);
+ }
+ 
 
 .row > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) {
   margin-top: 15%;
