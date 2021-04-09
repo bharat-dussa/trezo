@@ -503,6 +503,9 @@ div.footer-col:nth-child(1) > ul:nth-child(1) > li:nth-child(6) {
   
   nav .openMenu{
     display: block;
+    position: absolute;
+top: 20px;
+left: 20px;
   }
   nav .closeMenu{
     display: block;
