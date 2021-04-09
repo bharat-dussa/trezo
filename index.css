@@ -63,7 +63,8 @@ nav .openMenu {
   display: none;
   cursor: pointer;
 }
-nav .closeMenu , i {
+nav .closeMenu,
+i {
   font-size: 3rem;
   display: none;
   cursor: pointer;
@@ -73,7 +74,7 @@ nav {
   width: 90%;
   margin: 0 auto;
   padding: 2rem;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   color: white;
@@ -155,7 +156,9 @@ nav div#logo {
   -webkit-background-size: cover;
   margin-bottom: 100px;
 }
-
+ .mainMenu{
+   display: none;
+ }
 .section-one-details {
   display: flex;
   position: relative;
@@ -500,23 +503,20 @@ div.footer-col:nth-child(1) > ul:nth-child(1) > li:nth-child(6) {
 
 /* for mobiles */
 @media screen and (max-width: 768px) {
-  
-  nav .openMenu{
+  nav .openMenu {
     display: block;
     position: absolute;
-top: 20px;
-left: 20px;
+    top: 20px;
+    left: 20px;
   }
-  nav .closeMenu{
+  nav .closeMenu {
     display: block;
     position: absolute;
   }
   .mainMenu {
     display: none;
-   }
-   
-  
-  
+  }
+
   .section-one-details {
     left: 8%;
   }
