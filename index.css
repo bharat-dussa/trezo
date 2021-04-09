@@ -457,9 +457,6 @@ div.footer-col:nth-child(1) > ul:nth-child(1) > li:nth-child(6) {
     .section-one-details {
         left:8%;
     }
-
-
-
 .upper-left-about {
     /* width: 40%; */
   }
@@ -499,4 +496,117 @@ div.footer-col:nth-child(1) > ul:nth-child(1) > li:nth-child(6) {
     font-size: 16px;
   }
   
+/* Element | http://127.0.0.1:5501/index.html */
+
+.upper-right-image-two > img:nth-child(1) {
+  width: 200px;
+}
+
+/* index.css | http://127.0.0.1:5501/index.css */
+
+.upper-right-images {
+  flex-direction: column;
+}
+
+.left-details-container {
+  /* padding: 50px 50px 50px 100px; */
+  display: flex;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .upper-left-about {
+    display: flex;
+    flex-direction: column;
+  }
+  .upper-left-about img {
+    /* width: 100%; */
+  }
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+.upper-right-image-two {
+  width: 45%;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+section.about-section:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+.section-building-details {
+  padding: 20px;
+}
+
+section.about-section:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+  margin-left: -100px;
+ }
+ 
+/* Element | http://127.0.0.1:5501/index.html */
+
+section.about-section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  display: flex;
+  flex-flow: column;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+section.about-section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
+  width: 280px;
+  margin: 30%;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+section.about-section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+.footer-description > p:nth-child(1) {
+  display: none;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+.footer-copyright {
+  display: none;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+section.about-section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+  width: 500px;
+  margin-left: -66px;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+section.about-section:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img:nth-child(1) {
+  width: 200px;
+}
+section.about-section:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img:nth-child(1) {
+  width: 300px;
+ }
+ 
+
+/* footer */
+
+.footer-description {
+  display: none;
+}
+
+
 }
