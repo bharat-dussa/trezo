@@ -274,7 +274,7 @@ section.about-section:nth-child(3)
   display: flex;
   flex-direction: column;
   width: 40%;
-  width: 700px;
+  /* width: 700px; */
 }
 .upper-left-about img {
   width: 100%;
@@ -803,6 +803,7 @@ div.lower-about-section:nth-child(3),
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+    margin-top: 100px;
   }
   .section-building-details > h3 {
     font-size: 5rem;
